@@ -1,0 +1,79 @@
+.about-section {
+    background-color: #e0e0e0;
+    /* Fondo gris claro */
+    padding: 20px 20px;
+    text-align: left;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: row;
+}
+
+.about-content {
+    color: #1a1919;
+    /* Texto oscuro */
+    padding-top: 0;
+    /* Elimina cualquier padding superior que pueda haber */
+    margin-left: 50px;
+    margin-top: 0px;
+}
+
+.about-title {
+    font-size: 1.25rem;
+    font-family: 'Playfair Display', sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #222222;
+    margin-bottom: 50px;
+}
+
+.about-description {
+    font-size: 1.5rem;
+    line-height: 1.6;
+    width: fit-content;
+    margin-bottom: 50px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 100;
+}
+
+.about-image {
+    width: 250px;
+    /* Ancho fijo para la imagen */
+    height: auto;
+    /* La altura se ajusta automáticamente */
+    border-radius: 15px;
+    /* Bordes redondeados más suaves */
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+    /* Sombra suave y difusa */
+    transition: all 0.3s ease;
+    /* Transición suave al cambiar el tamaño o la sombra */
+}
+
+/* Agregar un efecto hover para un sombreado más destacado al pasar el mouse */
+.about-image:hover {
+    transform: scale(1.05);
+    /* Aumenta ligeramente el tamaño de la imagen */
+    box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.2);
+    /* Sombra más pronunciada al hacer hover */
+}
+
+.coin-box {
+    display:flex;
+    flex-direction: column;
+    height: auto; /* La altura del contenedor es igual a la ventana */
+    width: 80%; /* Define un ancho específico para el contenedor */
+    background-color: white; /* Fondo blanco */
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    border-radius: 15px; /* Bordes redondeados */
+    padding: 80px;
+}
+.coin-box-content{
+    display: flex; /* Flexbox correcto */
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+    gap:80px;
+}
+.coin-info{
+    font-family: 'Poppins', sans-serif;
+    inline-size: auto;
+}

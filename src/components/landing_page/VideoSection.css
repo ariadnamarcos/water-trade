@@ -1,0 +1,37 @@
+.video-section {
+  background-color: black;
+  /* Fondo gris claro */
+  padding: 20px 20px;
+  text-align: center;
+  height: auto;
+  display: relative;
+  justify-content: center;
+  display: absolute;
+}
+
+.video-content {
+  color: white;
+  /* Texto oscuro */
+  padding-top: 0;
+  /* Elimina cualquier padding superior que pueda haber */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* Centra horizontalmente */
+  align-items: center;
+  gap: 100px;
+}
+
+.video-description {
+  font-size: 1.1rem;
+  font-style: italic;
+  line-height: 1.6;
+  margin-bottom: 20px;
+  font-family: 'Lato', sans-serif;
+}
+
+.video-button {
+  height: 20vh;
+  width: auto;
+  justify-self: center;
+}

@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;800&display=swap');
+
+
+.hero-section {
+  position: relative;
+  display: flex;
+  align-items: self-start;
+  justify-content: flex-start; /* Coloca el contenido hacia la izquierda */
+  height: 100vh;
+  color: #ffffff;
+  overflow: hidden;
+  /*background-image: url('../../assets/relaxing_water.gif');*/
+  background-color: transparent;
+  background-size: cover;
+}
+
+/* Coloca hero-content a la izquierda */
+.hero-content {
+  position: relative;
+  z-index: 2;
+  align-self: center;
+  text-align: left; /* Alinea el texto a la izquierda */
+  max-width: 600px;
+  margin-left: 150px; /* Añade margen desde el borde izquierdo */
+  transition: transform 0.3s ease-out;
+}
+.hero-content:hover {
+  transform: scale(1.1); /* Ligeramente más grande en hover */
+}
+
+.hero-title {
+  font-size: 4rem;
+  font-weight: Bold;
+  margin: 0;
+  font-family: 'Playfair Display', sans-serif;
+}
+
+.hero-subtitle {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 100;
+  font-size: 1.5rem;
+  margin: 20px 0;
+}
+
+
+.hero-background {
+  position: relative;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  overflow: hidden;
+}

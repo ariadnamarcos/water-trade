@@ -1,0 +1,38 @@
+a) Landing Page (Página de Inicio)
+Objetivo: Dar una introducción al proyecto, explicar el concepto de créditos de agua y la problemática del consumo excesivo en la industria.
+Componentes:
+    HeroSection: Banner con título, descripción del proyecto y CTA.
+    AboutProject: Sección explicativa sobre la iniciativa y su inspiración en los ‘carbon credits’ y ‘lake coins’.
+    Benefits: Componentes para explicar las ventajas de un sistema de créditos de agua.
+    CallToAction: Botones y links para explorar la simulación o contactar.
+b) Información y Conceptos de Créditos de Agua
+Objetivo: Profundizar en el funcionamiento de los créditos de agua y cómo se aplican en la iniciativa.
+Componentes:
+    WaterCreditsInfo: Explicación detallada sobre qué son los créditos de agua.
+    HowItWorks: Descripción paso a paso del sistema y su impacto.
+    FAQ: Preguntas frecuentes sobre el proyecto y el sistema de créditos.
+    Comparison: Comparación con iniciativas como "carbon credits" y "lake coins".
+c) Simulación de Trading de Créditos de Agua
+Objetivo: Permitir a los usuarios explorar cómo funciona el trading de créditos de agua entre empresas.
+Componentes:
+    TradingDashboard: Panel de control principal de la simulación.
+    CompanyProfile: Componente para visualizar el perfil de cada empresa ficticia (consumo de agua, créditos disponibles).
+    TradeHistory: Histórico de transacciones de créditos de agua.
+    TradeForm: Formulario para realizar transacciones simuladas de compra/venta de créditos entre empresas.
+    StatsOverview: Resumen de métricas, como el consumo total de agua, ahorro de recursos, etc.
+    Logística:
+Puedes utilizar Context API o Redux para manejar el estado de la simulación, permitiendo que los datos de las empresas y las transacciones sean accesibles en toda la app.
+Hooks personalizados: Para lógica de trading, como useTrade para manejar las operaciones de compra y venta y actualizar las estadísticas.
+d) Formulario de Contacto para Empresas Interesadas
+Objetivo: Ofrecer un formulario a empresas que podrían participar en la iniciativa real.
+Componentes:
+    ContactForm: Formulario para recolectar datos de las empresas (nombre, sector, consumo de agua, etc.).
+    EligibilityCheck: Revisión automática de criterios (si la empresa cumple los requisitos básicos).
+    ConfirmationModal: Mensaje de confirmación al enviar el formulario.
+    SuccessPage: Página de agradecimiento tras el envío exitoso del formulario.
+e) Páginas y Navegación
+    Objetivo: Configurar la navegación entre las diferentes secciones de la web.
+    Componentes:
+    Header: Barra de navegación principal (Home, Información, Simulación, Contacto).
+    Footer: Información de copyright y enlaces importantes.
+    Routes: Configuración de rutas con react-router-dom para estructurar las páginas (Home, Information, Simulation, Contact).
