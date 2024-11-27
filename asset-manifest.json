@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/water-trade/static/css/main.d3ec8206.css",
-    "main.js": "/water-trade/static/js/main.cd69e58c.js",
-    "static/js/488.d6739d66.chunk.js": "/water-trade/static/js/488.d6739d66.chunk.js",
-    "static/media/relaxing_water.gif": "/water-trade/static/media/relaxing_water.a04494c7a7448dec8ded.gif",
-    "static/media/crypto.jpeg": "/water-trade/static/media/crypto.f41effa8a6b10872e71b.jpeg",
-    "static/media/playbutton.jpg": "/water-trade/static/media/playbutton.ae0cecc1eb6592113c2f.jpg",
-    "index.html": "/water-trade/index.html",
-    "main.d3ec8206.css.map": "/water-trade/static/css/main.d3ec8206.css.map",
-    "main.cd69e58c.js.map": "/water-trade/static/js/main.cd69e58c.js.map",
-    "488.d6739d66.chunk.js.map": "/water-trade/static/js/488.d6739d66.chunk.js.map"
+    "main.css": "/water-trade/services/static/css/main.f1614f7a.css",
+    "main.js": "/water-trade/services/static/js/main.1fed8290.js",
+    "static/js/488.d6739d66.chunk.js": "/water-trade/services/static/js/488.d6739d66.chunk.js",
+    "static/media/relaxing_water.gif": "/water-trade/services/static/media/relaxing_water.a04494c7a7448dec8ded.gif",
+    "static/media/crypto.jpeg": "/water-trade/services/static/media/crypto.f41effa8a6b10872e71b.jpeg",
+    "static/media/playbutton.jpg": "/water-trade/services/static/media/playbutton.ae0cecc1eb6592113c2f.jpg",
+    "index.html": "/water-trade/services/index.html",
+    "main.f1614f7a.css.map": "/water-trade/services/static/css/main.f1614f7a.css.map",
+    "main.1fed8290.js.map": "/water-trade/services/static/js/main.1fed8290.js.map",
+    "488.d6739d66.chunk.js.map": "/water-trade/services/static/js/488.d6739d66.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d3ec8206.css",
-    "static/js/main.cd69e58c.js"
+    "static/css/main.f1614f7a.css",
+    "static/js/main.1fed8290.js"
   ]
 }
